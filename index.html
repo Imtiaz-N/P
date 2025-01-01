@@ -48,19 +48,19 @@
       </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero-section d-flex align-items-center">
-      <div class="container text-center text-white">
+    <section id="hero" class="hero-section">
+      <div class="container text-center">
         <h1 id="hero-heading">Welcome to My Portfolio</h1>
-        <div id="hero-description" class="card mx-auto mt-4">
-          <div class="card-body">
-            <p class="card-text">
-              Aspiring Web Developer with a strong foundation in HTML, CSS,
-              Bootstrap, JavaScript, and React. Seeking an entry-level role to
-              contribute and grow in the field of web development.
-            </p>
-          </div>
-        </div>
+        <p class="custom-text">
+          "Hi, I’m Imtiaz Mahmud, a passionate Web Developer dedicated to
+          transforming ideas into functional, visually appealing, and
+          user-friendly digital experiences. With expertise in modern web
+          technologies like Angular, React, and Tailwind CSS, I specialize in
+          building responsive websites and scalable web applications. Whether
+          you need sleek front-end designs, seamless back-end integration, or a
+          complete full-stack solution, I’m here to bring your vision to life.
+          Let’s create something extraordinary together!"
+        </p>
         <a href="#projects" class="btn btn-primary mt-4">View My Work</a>
       </div>
     </section>
@@ -89,37 +89,83 @@
         </div>
       </div>
     </section>
-    <section id="projects" class="py-5 bg-black">
-        <div class="container">
-            <h2 class="text-center text-white">My Projects</h2>
-            <div class="row">
-                <!-- First Project Card -->
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="chair-2.png" class="card-img-top" alt="Project 1" />
-                        <div class="card-body">
-                            <h5 class="card-title">Ecommerce</h5>
-                            <p class="card-text">A React, local jason server Project.</p>
-                            <a href="#" class="btn btn-primary">View Details</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Second Project Card -->
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="blooddrop.png" class="card-img-top" alt="Project 2" />
-                        <div class="card-body">
-                            <h5 class="card-title">BloodBank</h5>
-                            <p class="card-text">React fontend interface</p>
-                            <a href="#" class="btn btn-primary">View Details</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Repeat for additional projects if needed -->
+    <section id="experience" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center">Work Experience</h2>
+        <div class="row mt-4">
+          <div class="col-md-12">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title">Front-End Developer Intern</h5>
+                <h6 class="card-subtitle mb-2 text-muted">
+                  RedDot Digital | FinTech Team
+                </h6>
+                <p class="card-text">
+                  Currently contributing as a Front-End Developer Intern at
+                  RedDot Digital, focusing on the development of large-scale web
+                  portal systems within the FinTech domain. Collaborating with
+                  the team to build and optimize live projects such as Admin and
+                  Merchant portals, ensuring seamless integration with RESTful
+                  APIs. My responsibilities include designing user-friendly
+                  interfaces, maintaining code quality, and addressing the
+                  functional requirements of dynamic web applications in a
+                  fast-paced, live production environment.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
-    
+
+    <section id="projects" class="py-5 bg-black">
+      <div class="container">
+        <h2 class="text-center text-white">My Projects</h2>
+        <div class="row">
+          <!-- First Project Card -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="f-1.jpg"
+                class="card-img-top"
+                alt="Project 1"
+                height="400px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Food App</h5>
+                <p class="card-text">A React, Tailwind CSS</p>
+                <a
+                  href="https://imtiaz-n.github.io/Food-Recipe/"
+                  class="btn btn-primary"
+                  >Goto Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Second Project Card -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="e-shop.png"
+                class="card-img-top"
+                alt="Project 2"
+                height="400px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ecommerce</h5>
+                <p class="card-text">Anngular, local jason server Project.</p>
+                <a
+                  href="https://angular-eccomerce-frontend.vercel.app/home"
+                  class="btn btn-primary"
+                  >Goto Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for additional projects if needed -->
+        </div>
+      </div>
+    </section>
 
     <section id="skills" class="py-5">
       <div class="container">
@@ -153,6 +199,32 @@
               </div>
             </div>
             <h5>JavaScript</h5>
+            <div class="progress mb-4">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                90%
+              </div>
+            </div>
+            <h5>React</h5>
+            <div class="progress mb-4">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                60%
+              </div>
+            </div>
+            <h5>Angular</h5>
             <div class="progress mb-4">
               <div
                 class="progress-bar"
@@ -199,10 +271,12 @@
           </div>
           <div class="col-md-6">
             <h5>Find me on:</h5>
-            <a href="#" class="text-white me-3"
+            <a href="https://github.com/Imtiaz-N" class="text-white me-3"
               ><i class="fab fa-github"></i> GitHub</a
             >
-            <a href="#" class="text-white me-3"
+            <a
+              href="https://www.linkedin.com/in/imtiaz-mahmud-10750b22b/"
+              class="text-white me-3"
               ><i class="fab fa-linkedin"></i> LinkedIn</a
             >
             <!-- Add more social links -->
